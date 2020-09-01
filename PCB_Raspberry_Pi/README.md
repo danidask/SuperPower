@@ -8,6 +8,7 @@
 
 * [Usage](#usage)
 * [License](#license)
+* [References](#references)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -21,6 +22,12 @@ Design with [kicad 5](https://kicad-pcb.org/)
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+## References
+
+https://github.com/raspberrypi/hats/
 
 
 

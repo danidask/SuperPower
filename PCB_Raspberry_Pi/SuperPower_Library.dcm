@@ -1,13 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LH0002H
-D aaaaaa
-K bbbb
-$ENDCMP
-#
-$CMP LH0002H_0
-D aaaaaa
-K bbbb
+$CMP Raspberry_Pi_GPIO_Header
+D Raspberry Pi GPIO Header
+K connector
+F ~
 $ENDCMP
 #
 #End Doc Library
