@@ -5,4 +5,9 @@ D aaaaaa
 K bbbb
 $ENDCMP
 #
+$CMP LH0002H_0
+D aaaaaa
+K bbbb
+$ENDCMP
+#
 #End Doc Library
