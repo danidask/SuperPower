@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:SuperPower_Raspberry_Pi-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +21,7 @@ F 0 "J1" H 6050 5300 60  0000 C CNN
 F 1 "RPi_GPIO" H 6050 3000 60  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 7200 4200 60  0001 C CNN
 F 3 "" H 6050 4200 60  0000 C CNN
+F 4 "DNP" H 6050 4200 50  0001 C CNN "Keys"
 	1    6050 4200
 	1    0    0    -1  
 $EndComp
@@ -101,13 +101,62 @@ Wire Wire Line
 Wire Wire Line
 	5600 4900 5550 4900
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5F4EFF6E
+P 600 7050
+F 0 "H1" H 700 7096 50  0000 L CNN
+F 1 "MountingHole" H 700 7005 50  0000 L CNN
+F 2 "SuperPower_Library:RPi_Hat_Mounting_Hole" H 600 7050 50  0001 C CNN
+F 3 "~" H 600 7050 50  0001 C CNN
+F 4 "EXCLUDE" H 600 7050 50  0001 C CNN "Keys"
+	1    600  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F517D74
+P 7700 3350
+F 0 "R1" H 7770 3396 50  0000 L CNN
+F 1 "1k" H 7770 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7630 3350 50  0001 C CNN
+F 3 "~" H 7700 3350 50  0001 C CNN
+F 4 "C17513" H 7700 3350 50  0001 C CNN "PartNumber"
+	1    7700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F5173E0
+P 600 7250
+F 0 "H2" H 700 7296 50  0000 L CNN
+F 1 "MountingHole" H 700 7205 50  0000 L CNN
+F 2 "SuperPower_Library:RPi_Hat_Mounting_Hole" H 600 7250 50  0001 C CNN
+F 3 "~" H 600 7250 50  0001 C CNN
+F 4 "EXCLUDE" H 600 7250 50  0001 C CNN "Keys"
+	1    600  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F51765D
+P 600 7450
+F 0 "H3" H 700 7496 50  0000 L CNN
+F 1 "MountingHole" H 700 7405 50  0000 L CNN
+F 2 "SuperPower_Library:RPi_Hat_Mounting_Hole" H 600 7450 50  0001 C CNN
+F 3 "~" H 600 7450 50  0001 C CNN
+F 4 "EXCLUDE" H 600 7450 50  0001 C CNN "Keys"
+	1    600  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F517922
 P 600 7650
-F 0 "H?" H 700 7696 50  0000 L CNN
+F 0 "H4" H 700 7696 50  0000 L CNN
 F 1 "MountingHole" H 700 7605 50  0000 L CNN
-F 2 "" H 600 7650 50  0001 C CNN
+F 2 "SuperPower_Library:RPi_Hat_Mounting_Hole" H 600 7650 50  0001 C CNN
 F 3 "~" H 600 7650 50  0001 C CNN
+F 4 "EXCLUDE" H 600 7650 50  0001 C CNN "Keys"
 	1    600  7650
 	1    0    0    -1  
 $EndComp
